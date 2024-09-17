@@ -1,0 +1,14 @@
+.heading{
+    color: #8a2be2 ;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(119, 183, 219);
+}
+
+nav{
+    background-color: beige;/*цвет фона*/ 
+    border: 1px solid darkblue; /*обводка*/ 
+}
+
