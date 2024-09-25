@@ -4,7 +4,7 @@
 
 a{
     text-decoration: none;
-    color: rgb(119, 183, 219);
+    color: rgb(183, 47, 213);
 }
 
 nav{
@@ -12,3 +12,64 @@ nav{
     border: 1px solid darkblue; /*обводка*/ 
 }
 
+.korobka{
+    width: 700px; /*ширина контейнера*/
+    background: #f8f3fa;
+    margin: 0 auto; /*внешний отступ сверху и снизу = 0 а слева и справа выравнивает по центру автоматически*/
+    margin-bottom: 300px;
+
+}
+
+h1{
+    margin-top: 66px; /*внешний верхний отступ*/ 
+    font-size: 38px;/*кегль*/ 
+    line-height: 45px;/*высота текстового блока*/ 
+}
+
+h1+ hr + p{
+    margin-top: 8px;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(0, 0, 0,0.4)
+}
+
+h1+ hr + p +p {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0,0.4)
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 32px;
+    line-height: 36 px;
+    color: rgba(0, 0, 0,0.8)
+}
+
+h2 + p, h2 + blockquote {
+    margin-top: 8px;
+}
+
+h3 + p, h3 + blockquote {
+    margin-top: 6px;
+}
+
+p, blockquote, li {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 34 px
+}
+
+blockquote {
+font-style: italic;
+margin-left: 40%;
+
+}
+
+img{
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 30px;;
+}
